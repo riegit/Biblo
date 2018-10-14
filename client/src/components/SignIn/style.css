@@ -1,0 +1,21 @@
+body {
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Slabo 27px", serif; */
+}
+.container {
+  margin-top: 0;
+}
+#card {
+  background: rgb(245, 239, 232);
+}
+.h4 {
+  font-weight: 500;
+  color: #ee6910 !important;
+}
+.btn-primary {
+  background-color: #ee6910 !important;
+  border-color: #ee6910 !important;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px #ee6910,
+    0 1px 8px 0 #ee6910;
+  margin-bottom: 10px;
+}

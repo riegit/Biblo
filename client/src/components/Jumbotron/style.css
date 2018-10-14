@@ -1,0 +1,10 @@
+.jumbotron {
+  background-color: white;
+  font-family: "Gloria Hallelujah", cursive;
+  color: brown;
+  font-weight: 900;
+  text-align: center;
+}
+h1 {
+  font-size: 50px !important;
+}
