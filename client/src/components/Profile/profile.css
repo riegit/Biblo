@@ -1,0 +1,19 @@
+#profile {
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.btn-primary {
+  background-color: #ee6910 !important;
+  border-color: #ee6910 !important;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px #ee6910,
+    0 1px 8px 0 #ee6910;
+  margin-bottom: 10px;
+}
+#recipeboard {
+  background-image: url(./img/recipe_board.jpg);
+  background-repeat: no-repeat;
+  height: 150px;
+}
+#search-result {
+}
