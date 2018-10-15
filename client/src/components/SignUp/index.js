@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const SignUp = props => {
   return (
-    <div className="container">
+    <div className="container-flud">
       <div className="row">
         <div className="col-4">
           <div className="card mx-xl-5">
@@ -37,7 +37,7 @@ const SignUp = props => {
                 />
                 <div className="text-center py-4 mt-3">
                   <button
-                    name="/auth/signin"
+                    name="/auth/signup"
                     onClick={props.handleSubmit}
                     className="btn btn-primary"
                     type="submit"

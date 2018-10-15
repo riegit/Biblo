@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar/index";
 import Jumbotron from "./components/Jumbotron/index";
 import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
+import Profile from "./components/Profile";
 import Home from "./components/Home";
 
 class App extends Component {
@@ -96,7 +97,7 @@ class App extends Component {
                 path="/"
                 render={() => {
                   if (loggedIn) {
-                    return <Redirect to="/home" />;
+                    return <Redirect to="/profile" />;
                   } else {
                     return (
                       <SignIn
@@ -114,7 +115,7 @@ class App extends Component {
                 path="/signup"
                 render={() => {
                   if (loggedIn) {
-                    return <Redirect to="/home" />;
+                    return <Redirect to="/profile" />;
                   } else {
                     return (
                       <SignUp
@@ -129,13 +130,13 @@ class App extends Component {
               />
               <Route
                 exact
-                path="/home"
+                path="/profile"
                 render={() => {
                   if (!loggedIn) {
                     return <Redirect to="/" />;
                   } else {
                     return (
-                      <Home
+                      <Profile
                         handleLogout={this.handleLogout}
                         auth={this.state.auth}
                       />
@@ -143,6 +144,7 @@ class App extends Component {
                   }
                 }}
               />
+              <Route exact path="/" component={Home} />
             </div>
           </Router>
         </main>

@@ -25,7 +25,7 @@ app.use(passport.initialize());
 app.use(passport.session()); // persistent login sessions
 require("./config/passport.js")(passport, models.User);
 
-// Add routes, both API and view
+// Add routes, both API and views
 const routes = require("./routes")(passport);
 app.use("/", routes);
 
@@ -34,7 +34,7 @@ mongoose.Promise = global.Promise;
 // Connect to the Mongo DB
 //add mongo heroku uri
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/mernmvctest-development",
+  process.env.MONGODB_URI || "mongodb://localhost/yumyum",
   { useNewUrlParser: true }
 );
 

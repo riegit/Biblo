@@ -3,8 +3,12 @@ body {
   /* font-family: "Slabo 27px", serif; */
 }
 .container {
-  margin-top: 0;
+  background-image: url(./img/recipeBackgroundSmall.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
 }
+
 #card {
   background: rgb(245, 239, 232);
 }
