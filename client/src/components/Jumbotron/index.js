@@ -1,11 +1,14 @@
 import React from "react";
-import "./style.css";
+import "./jumbotron.css";
 
 const Jumbotron = ({ children }) => (
   <div className="jumbotron mt-2">
-    {children}
+    {/* {children} */}
     <h1>Yummy Recipe</h1>
-    <h2>Create your favorite recipe collection</h2>
+    <h3 style={{ color: "black" }}>
+      Create your own favorite recipe collection
+    </h3>
+    <span />
   </div>
 );
 

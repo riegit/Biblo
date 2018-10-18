@@ -1,10 +1,10 @@
 import React from "react";
-import "./style.css";
+import "./signup.css";
 import { Link } from "react-router-dom";
 
 const SignUp = props => {
   return (
-    <div className="container-flud">
+    <div className="container">
       <div className="row">
         <div className="col-4">
           <div className="card mx-xl-5">

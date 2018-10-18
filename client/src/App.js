@@ -8,6 +8,7 @@ import Jumbotron from "./components/Jumbotron/index";
 import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
 import Profile from "./components/Profile";
+// import Recipe from "./components/Recipe";
 import Home from "./components/Home";
 
 class App extends Component {
@@ -144,7 +145,7 @@ class App extends Component {
                   }
                 }}
               />
-              <Route exact path="/" component={Home} />
+              <Route exact path="/home" component={Home} />
             </div>
           </Router>
         </main>
